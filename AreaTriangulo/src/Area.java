@@ -11,9 +11,8 @@ public class Area {
 		double perimetro = ladoA + ladoB + ladoC;
 		double Area = Math.sqrt(semiperimetro * (semiperimetro - ladoA) * (semiperimetro - ladoB) * (semiperimetro - ladoC));
 		
-		System.out.print(Area);
-		//System.out.print(perimetro);
-		
+		System.out.println("Área: " + Area + " metros quadrados");
+		System.out.print("Perímetro: " + perimetro + " metros");
 		
 	}
 
